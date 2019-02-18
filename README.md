@@ -1,4 +1,4 @@
-# IDE-python package
+# IDE-micropython package
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/thepian/ide-micropython.svg)](https://greenkeeper.io/)
 
