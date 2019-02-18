@@ -1,8 +1,8 @@
 {
-  "name": "ide-python",
+  "name": "ide-micropython",
   "main": "./lib/main",
   "version": "1.2.0",
-  "description": "Python language support for Atom-IDE",
+  "description": "MicroPython language support for Atom-IDE",
   "keywords": [
     "ide",
     "python",
@@ -20,7 +20,7 @@
     "language-server-protocol",
     "language-client"
   ],
-  "repository": "https://github.com/lgeiger/ide-python",
+  "repository": "https://github.com/thepian/ide-micropython",
   "license": "MIT",
   "engines": {
     "atom": ">=1.21.0 <2.0.0"
@@ -39,11 +39,11 @@
   ],
   "configSchema": {
     "python": {
-      "title": "Python Executable",
+      "title": "MicroPython Executable",
       "order": 1,
       "type": "string",
       "default": "python",
-      "description": "Absolute path of your Python binary. This is used to launch the Python language server. Make sure to install `pyls` for this version of Python. Changes will take effect after a restart of the language server. Use $PIPENV_PATH if you want to use the pipenv path of your project"
+      "description": "Absolute path of your MicroPython binary. This is used to launch the Python language server. Make sure to install `pyls` for this version of Python. Changes will take effect after a restart of the language server. Use $PIPENV_PATH if you want to use the pipenv path of your project"
     },
     "pylsConfigurationSources": {
       "order": 2,
@@ -293,7 +293,7 @@
               "order": 5,
               "title": "Max Line Length",
               "type": "number",
-              "default": 79,
+              "default": 99,
               "description": "Set maximum allowed line length."
             }
           }
